@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Pawel Szalek für Verlag Der Tagesspiegel GmbH
+#Stand: 22.02.2022
+
+#Ausführung der Config-Datei
+/Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/./jamCommand -importfile TSPJunos-Empirum3.pulsepreconfig
+
+#Statusmelldung bei Jobende
+    echo "Fertig! Das Fenster kann geschlossen werden."
